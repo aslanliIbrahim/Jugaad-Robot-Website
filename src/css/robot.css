@@ -38,13 +38,6 @@ h1,h2,h3,h4,h5,h6{
     line-height: 135.4%;
     text-transform: capitalize;
 }
-
-#one .one-form-area {
-    /* border: 2px solid red; */
-}
-
-#one 
-
 #one .one-form-area input{
     outline: none;
     width: 100%;
@@ -55,7 +48,6 @@ h1,h2,h3,h4,h5,h6{
     color: #7B7B7BD9;
     border: none;
 }
-
 #one .one-form-area .button-area button{
     background-color: #C2021A;
     color: white;
@@ -72,4 +64,109 @@ h1,h2,h3,h4,h5,h6{
     background-color: #9E0014;
     color: white;
     cursor: pointer;
+}
+#two{
+    background: #E7E7E7;
+}
+#two .about-robot{
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#two .about-robot h2{
+    text-align: center;
+    color: #181818;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+}
+#two .about-robot p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.36px;
+    text-align: center;
+    color: #6B6B6B;
+}
+#two .robot-card{
+    margin-top: 52px;
+}
+#two .robot-card a{
+    /* width: 300px;
+    height: 359px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    text-decoration: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(197, 197, 197, 0.2);
+    border-radius: 10px;
+    padding-left: 25px;
+    transition: all 1s ease-in;
+}
+#two .robot-card a:hover{
+    background: linear-gradient(199.89deg, #DB0520 8.54%, #8D0113 100.29%);    
+    box-shadow: 0px 4px 12px rgba(197, 197, 197, 0.2);
+}
+#two .robot-card a:hover p{
+    color: #FFFFFF;
+}
+#two .robot-card a:hover .headline p{
+    color: #FFFFFF;
+}
+#two .robot-card a:hover .explain p{
+    color: #FFFFFF;
+}
+#two .robot-card a:hover .img-side svg path{
+    flood-color: #C2021A;
+    lighting-color: #C2021A;
+    stop-color: #C2021A;
+    stroke: #C2021A;
+}
+#two .robot-card a:hover .img-side svg g circle{
+   fill: #FFFFFF;
+}
+#two .robot-card a .img-side{
+    width: 110px;
+    object-fit: contain;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#two .robot-card a .headline{
+    padding-right: 84px;
+    /* border: 2px solid red; */
+}
+#two .robot-card a .headline p{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #181818;
+    margin: 0;
+}
+#two .robot-card a .explain{
+    margin-top: 15px;
+}
+#two .robot-card a .explain p{
+    margin: 0;
+    font-family: Poppins,sans-serif;
+    color: #5B5B5B;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.79px;
+}
+#two .robot-card a .card-button{
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #C2021A;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+}
+
+#two .robot-card a .card-button i{
+    margin-left: 25px;
 }
