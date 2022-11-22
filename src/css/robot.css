@@ -219,12 +219,71 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
 }
 
+#four .four-left-side{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+#four .four-left-side h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #181818;
+    margin-bottom: 67px;
+}
+#four .four-left-side .accordion-top .accordion-items{
+    margin-bottom: 54px;
+}
+#four .four-left-side .accordion-top .accordion-items button{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+#four .four-left-side .accordion-top .accordion-items button[aria-expanded='true']{
+    color: black;
+}
+#four .four-left-side .accordion-top .accordion-items button[aria-expanded='true']+.accordion-content{
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+#four .four-left-side .accordion-top .accordion-items button span {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #181818;
+}
+#four .four-left-side .accordion-top .accordion-items button i {
+    color: #C2021A;
+    font-size: 18px;
+}
+#four .four-left-side .accordion-top .accordion-items .accordion-content{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+#four .four-left-side .accordion-top .accordion-items .accordion-content p{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 2em 0;
+}
+/* #four .four-left-side .accordion-top .accordion-items button[aria-expanded='true']{
+
+} */
+
 #four .four-right-side{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 #four .four-right-side .four-img-side{
     width: 240px;
