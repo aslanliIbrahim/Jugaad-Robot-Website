@@ -218,3 +218,71 @@ h1,h2,h3,h4,h5,h6{
     color: white;
     cursor: pointer;
 }
+
+#four .four-right-side{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#four .four-right-side .four-img-side{
+    width: 240px;
+}
+#four .four-right-side .four-img-side img{
+    width: 100%;
+    object-fit: contain;
+}
+#four .four-right-side h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    margin-top: 60px;
+}
+#four .four-right-side p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    text-align: center;
+    color: rgba(60, 60, 67, 0.85);
+    margin: 0;
+    margin-top: 10px;
+}
+#four .four-right-side form{
+    width: 100%;
+}
+#four .four-right-side input {
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid #5B5B5B;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #5B5B5B;
+    background-color: #F1F1F1;
+    width: 100%;
+}
+#four .four-right-side .four-button-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+#four .four-right-side .four-button-side button{
+    background-color: #C2021A;
+    color: white;
+    width: 129px;
+    height: 54px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: 0.2s all ease-in-out;
+}
+#four .four-right-side .four-button-side button:hover{
+    background-color: #9E0014;
+    color: white;
+    cursor: pointer;
+}
