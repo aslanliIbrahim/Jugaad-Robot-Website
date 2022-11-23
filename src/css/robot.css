@@ -6,58 +6,6 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Barlow', sans-serif;
 }
-@media (max-width:768px) {
-    #one .one-title-area p{
-        text-align: center;
-    }
-    #one .one-form-area .one-form-input-area {
-        margin-bottom: 10px;
-    }
-    #one .one-form-area .button-area button {
-        width: 100% !important;
-    }
-    #two .robot-card a {
-        padding-right: 25px;
-    }
-    #two .robot-card a .img-side {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    #two .robot-card a .headline {
-        text-align: center;
-    }
-    #two .robot-card a .explain {
-        text-align: center;
-    }
-    #two .robot-card a .card-button {
-        text-align: right;
-    }
-    #three{
-        padding-bottom: 40px !important;
-    }
-    #three .three-side-img {
-        margin-bottom: 15px;
-    }
-    #three .three-side-title {
-        order: 2;
-    }
-    #three .three-side-title h2 {
-        font-size: 40px;
-        width: 100%;
-    }
-    #three .three-side-title .three-button {
-        width: 100%;
-    }
-    #four .four-left-side {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    #four .four-right-side{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-}
 #one{
     height: 100vh;
     display: flex;
@@ -390,4 +338,58 @@ h1,h2,h3,h4,h5,h6{
     background-color: #9E0014;
     color: white;
     cursor: pointer;
+}
+
+@media (max-width:768px) {
+    #one .one-title-area p{
+        text-align: center;
+    }
+    #one .one-form-area .one-form-input-area {
+        margin-bottom: 10px;
+    }
+    #one .one-form-area .button-area button {
+        width: 100% !important;
+    }
+    #two .robot-card a {
+        padding-right: 25px;
+    }
+    #two .robot-card a .img-side {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    #two .robot-card a .headline {
+        text-align: center;
+        padding-right: unset !important;
+    }
+    #two .robot-card a .explain {
+        text-align: center;
+    }
+    #two .robot-card a .card-button {
+        text-align: right;
+    }
+    #three{
+        padding-bottom: 40px !important;
+    }
+    #three .three-side-img {
+        margin-bottom: 15px;
+    }
+    #three .three-side-title {
+        order: 2;
+    }
+    #three .three-side-title h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+    #three .three-side-title .three-button {
+        width: 100%;
+    }
+    #four .four-left-side {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #four .four-right-side{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
